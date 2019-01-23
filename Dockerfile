@@ -1,9 +1,3 @@
-FROM python:2.7
+FROM 853848736482.dkr.ecr.us-east-1.amazonaws.com/demo:imageTag
 
-# Add sample application
-ADD application.py /tmp/application.py
-
-EXPOSE 8000
-
-# Run it
-ENTRYPOINT ["python", "/tmp/application.py"]
+EXPOSE 44444 44440
