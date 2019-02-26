@@ -1,6 +1,10 @@
 {
-  "AWSEBDockerrunVersion": "1",
-"Ports": [
+  "AWSEBDockerrunVersion": "1",\
+   "Image": {
+     "Name": "853848736482.dkr.ecr.us-east-1.amazonaws.com/demo:imageTag",
+     "Update": "true"
+   },
+   "Ports": [
         {
             "HostPort": "44444",
             "ContainerPort": "44444"
